@@ -11,29 +11,29 @@
   <div class="container">
         <aside>
             <h1>JS Documentation</h1>
-            <ul>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#what-you-should-already-know">What you should
+            <ul id="navbar">
+                <li id="nav-link"><a href="#introduction">Introduction</a></li>
+                <li id="nav-link"><a href="#what-you-should-already-know">What you should
                         already know</a></li>
-                <li><a href="#javascript-and-java">JavaScript and Java</a>
+                <li id="nav-link"><a href="#javascript-and-java">JavaScript and Java</a>
                 </li>
-                <li><a href="#Hello-word">Hello world</a></li>
-                <li><a href="#variables">Variables</a></li>
-                <li><a href="#declaring-variables">Declaring variables</a>
+                <li id="nav-link"><a href="#Hello-word">Hello world</a></li>
+                <li id="nav-link"><a href="#variables">Variables</a></li>
+                <li id="nav-link"><a href="#declaring-variables">Declaring variables</a>
                 </li>
-                <li><a href="#variable-scope">Variable scope</a></li>
-                <li><a href="#global-variables">Global variables</a></li>
-                <li><a href="#constants">Constants</a></li>
-                <li><a href="#data-types">Data types</a></li>
-                <li><a href="#if-else-statement">if...else statement</a></li>
-                <li><a href="#while-statement">while statement</a></li>
-                <li><a href="#function-declarations">Function declarations</a>
+                <li id="nav-link"><a href="#variable-scope">Variable scope</a></li>
+                <li id="nav-link"><a href="#global-variables">Global variables</a></li>
+                <li id="nav-link"><a href="#constants">Constants</a></li>
+                <li id="nav-link"><a href="#data-types">Data types</a></li>
+                <li id="nav-link"><a href="#if-else-statement">if...else statement</a></li>
+                <li id="nav-link"><a href="#while-statement">while statement</a></li>
+                <li id="nav-link"><a href="#function-declarations">Function declarations</a>
                 </li>
-                <li><a href="#refrence">Reference</a></li>
+                <li id="nav-link"><a href="#refrence">Reference</a></li>
             </ul>
         </aside>
-        <main>
-            <section id="introduction">
+        <main id="main-doc">
+            <section id="introduction" class="main-section">
                 <h2>Introduction</h2>
                 <article>
                     <p>JavaScript is a cross-platform, object-oriented
@@ -95,7 +95,7 @@
                     </ul>
                 </article>
             </section>
-            <section id="what-you-should-already-know">
+            <section id="what-you-should-already-know" class="main-section">
                 <h2>What you should already know</h2>
                 <article>
                     <p>This guide assumes you have the following basic
@@ -115,7 +115,7 @@
                     </ul>
                 </article>
             </section>
-            <section id="javascript-and-java">
+            <section id="javascript-and-java" class="main-section">
                 <h2>JavaScript and Java</h2>
                 <article>
                     <p>JavaScript and Java are similar in some ways but
@@ -170,7 +170,7 @@
                     </p>
                 </article>
             </section>
-            <section id="Hello-word">
+            <section id="Hello-word" class="main-section">
                 <h2>Hello world</h2>
                 <article>
                     <p>To get started with writing JavaScript, open the
@@ -185,7 +185,7 @@
                         browser!</p>
                 </article>
             </section>
-            <section id="variables">
+            <section id="variables" class="main-section">
                 <h2>Variables</h2>
                 <article>
                     <p>You use variables as symbolic names for values in your
@@ -210,7 +210,7 @@
                         Number_hits, temp99, and _name.</p>
                 </article>
             </section>
-            <section id="declaring-variables">
+            <section id="declaring-variables" class="main-section">
                 <h2>Declaring variables</h2>
                 <article>
                     <p>You can declare a variable in three ways:</p>
@@ -231,7 +231,7 @@
                         Variable scope below.</p>
                 </article>
             </section>
-            <section id="variable-scope">
+            <section id="variable-scope" class="main-section">
                 <h2>Variable scope</h2>
                 <article>
                     <p>When you declare a variable outside of any function, it
@@ -262,7 +262,7 @@
                         defined</code>
                 </article>
             </section>
-            <section id="global-variables">
+            <section id="global-variables" class="main-section">
                 <h2>Global variables</h2>
                 <article>
                     <p>Global variables are in fact properties of the global
@@ -281,7 +281,7 @@
                         parent.phoneNumber.</p>
                 </article>
             </section>
-            <section id="constants">
+            <section id="constants" class="main-section">
                 <h2>Constants</h2>
                 <article>
                     <p>You can create a read-only, named constant with the
@@ -314,7 +314,7 @@
                     <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
                 </article>
             </section>
-            <section id="data-types">
+            <section id="data-types" class="main-section">
                 <h2>Data types</h2>
                 <article>
                     <p>The latest ECMAScript standard defines seven data
@@ -350,7 +350,7 @@
                         procedures that your application can perform.</p>
                 </article>
             </section>
-            <section id="if-else-statement">
+            <section id="if-else-statement" class="main-section">
                 <h2>if...else statement</h2>
                 <article>
                     <p>Use the if statement to execute a statement if a
@@ -404,7 +404,7 @@
                     <code>if ((x = y)) { /* statements here */ }</code>
                 </article>
             </section>
-            <section id="while-statement">
+            <section id="while-statement" class="main-section">
                 <h2>while statement</h2>
                 <article>
                     <p>A while statement executes its statements as long as a
@@ -443,7 +443,7 @@
                             no longer true, so the loop terminates.</p>
                 </article>
             </section>
-            <section id="function-declarations">
+            <section id="function-declarations" class="main-section">
                 <h2>Function declarations</h2>
                 <article>
                     <p>A function definition (also called a function
@@ -480,7 +480,7 @@
                         globally or in the calling function.</p>
                 </article>
             </section>
-            <section id="refrence">
+            <section id="refrence" class="main-section">
                 <h2>Reference</h2>
                 <ul>
                     <li>All the documentation in this page is taken from<a
